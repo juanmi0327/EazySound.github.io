@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background: -webkit-linear-gradient(90deg, #291d53,#4d1740,#5a1e2d);
+    background: linear-gradient(90deg, #291d53,#4d1740,#5a1e2d);
+    overflow-x: hidden;
+}
+
+.nav-item a{
+    color: #ffffff;
+}
+
+.container-fluid a{
+    color: #ffffff;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.header-text h1 {
+color: #ffffff;
+}
+
+.header-text p {
+    color: #ffffff;
+}
+
+.vinyl-inner {
+    width: 280px;
+    height: 280px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.vinyl-inner img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.song-image {
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.song-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.song-info h3 {
+    color: #ffffff;
+}
+
+.song-info p {
+    color: #ffffff;
+}
+
+.song-info audio {
+    width: 300px;
+    border-radius: 10%;
+    color-scheme: dark;
+}
+
+.footer p {
+    color: #ffffff;
+}

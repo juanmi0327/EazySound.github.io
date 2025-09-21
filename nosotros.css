@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background: -webkit-linear-gradient(90deg, #291d53,#4d1740,#5a1e2d);
+    background: linear-gradient(90deg, #291d53,#4d1740,#5a1e2d);
+    overflow-x: hidden;
+}
+
+.nosotros-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.header h1 {
+    color: #5c43e7;
+}
+
+.container-fluid a{
+    color: #ffffff;
+}
+
+.nosotros-content img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.nosotros-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #8b5cf6;
+}
+
+.nosotros-text h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+.nosotros-text p {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer p {
+    color: #ffffff;
+}
